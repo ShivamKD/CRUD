@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Create</title>
+	<style type="text/css">
+		h1{
+			text-align: center;
+			color: #000080;
+		}
+		body{
+			align-content: center;
+			background-color: #777;
+		}
+		.wrapper{
+			width: 70%;
+			align-content: center;
+			position: relative;
+			margin: 0 auto;
+			margin-top: 5%;
+		}
+		fieldset{
+			width: 100%;
+		}
+
+		input{
+			width: 90%;
+			float: right;
+		}
+	</style>
+</head>
+<body>
+<h1>Fill the details To Add Student</h1>
+
+<div class="wrapper">
+<form action="created.jsp" method="post">
+	<fieldset>
+	Name  
+	<input type="text" name="name" required>
+	</fieldset>
+	<fieldset>
+	Department 
+		<input type="text" name="department" required>
+	</fieldset>
+	<fieldset>
+	Roll Number
+		<input type="text" name="roll" required>
+	</fieldset>
+	<fieldset class="in">
+		<input type="submit" value="Submit">
+	</fieldset>
+</form>
+</div>
+</body>
+</html>
